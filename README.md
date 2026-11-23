@@ -1,10 +1,10 @@
 INTEGRANTES DE GRUPO: 
 
-Misael Alexander Crisanto Barranzuela
-Gutiérrez Sernaque Eduard Denilson
-Carlos Martin Emilio Rubio Roman
-Christopher Xavier nonajulca
-Calle calva Bayron Gabriel
+1. Misael Alexander Crisanto Barranzuela
+2. Gutiérrez Sernaque Eduard Denilson
+3. Carlos Martin Emilio Rubio Roman
+4. Christopher Xavier nonajulca
+5. Calle calva Bayron Gabriel
 
 # ConectaFácil — Proyecto de Diseño de Patrones
 
