@@ -1,3 +1,11 @@
+INTEGRANTES DE GRUPO: 
+
+Misael Alexander Crisanto Barranzuela
+Gutiérrez Sernaque Eduard Denilson
+Carlos Martin Emilio Rubio Roman
+Christopher Xavier nonajulca
+Calle calva Bayron Gabriel
+
 # ConectaFácil — Proyecto de Diseño de Patrones
 
 Aplicación web académica desarrollada con HTML, CSS y JavaScript para demostrar los patrones **Proxy** y **State**.
@@ -77,30 +85,3 @@ En el guardado de un contacto:
 3. Si la validación es correcta, `AlmacenReal` realiza el guardado.
 
 En resumen: State determina el comportamiento de la operación y Proxy controla el acceso al almacenamiento.
-
-## 4. Guion breve para la exposición
-
-1. Presenta la página y explica sus tres opciones.
-2. En “Hablar con alguien”, intenta guardar un teléfono inválido y muestra cómo Proxy bloquea la operación.
-3. Guarda un contacto válido y muestra el mensaje de autorización en la consola.
-4. Edita el contacto y explica cómo State cambia de `EstadoCreando` a `EstadoEditando`.
-5. En “Enviar mensaje”, escribe un texto con errores y luego uno corregido para mostrar los cambios de estado.
-6. Abre `proxy.js` y `state.js` para explicar las clases que implementan cada patrón.
-
-## 5. Preguntas que puede hacer el profesor
-
-**¿Por qué es Proxy?**  
-Porque el objeto Proxy mantiene una interfaz para acceder al objeto real y añade controles antes de permitir la operación.
-
-**¿Por qué es State?**  
-Porque el contexto delega su comportamiento al objeto de estado actual. Al cambiar el estado, cambia el comportamiento.
-
-**¿Cuál es la diferencia entre State y Strategy?**  
-State representa situaciones de un objeto y su comportamiento cambia según el estado. Strategy permite seleccionar entre distintos algoritmos o estrategias.
-
-**¿Dónde se guardan los contactos?**  
-En `localStorage` del navegador. No se guardan en una base de datos externa.
-
-## Nota académica
-
-El proyecto implementa **Proxy y State**. No implementa Command ni Memento. Si esos patrones aparecen en el índice o en los requisitos del profesor, deben desarrollarse por separado o retirarse del alcance del proyecto.
