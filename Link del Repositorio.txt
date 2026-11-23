@@ -1,3 +1,5 @@
 Link del Repositorio:
+https://github.com/Misaeltroll/AvanceProyecto.git
 
+Link de la Web
 https://misaeltroll.github.io/AvanceProyecto/
