@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ConectaFácil: aplicación académica para demostrar los patrones Proxy y State.">
+    <title>ConectaFácil</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>ConectaFácil</h1>
+        <p>Comunícate, escribe y encuentra información con más facilidad.</p>
+    </header>
+
+    <main>
+        <h2>¿Qué quieres hacer hoy?</h2>
+        <p>Selecciona una opción para comenzar.</p>
+
+        <section class="opciones" aria-label="Opciones principales">
+            <article class="opcion">
+                <div class="icono" aria-hidden="true">💬</div>
+                <h3>Enviar mensaje</h3>
+                <p>Escribe un mensaje y revisa posibles errores antes de enviarlo.</p>
+                <button type="button" onclick="mostrarOpcion('mensaje')">Comenzar</button>
+            </article>
+
+            <article class="opcion">
+                <div class="icono" aria-hidden="true">📞</div>
+                <h3>Hablar con alguien</h3>
+                <p>Organiza tus contactos y prepara lo que quieres comunicar.</p>
+                <button type="button" onclick="mostrarOpcion('llamada')">Comenzar</button>
+            </article>
+
+            <article class="opcion">
+                <div class="icono" aria-hidden="true">🌐</div>
+                <h3>Buscar en la web</h3>
+                <p>Busca información en Internet desde tu navegador.</p>
+                <button type="button" onclick="mostrarOpcion('busqueda')">Comenzar</button>
+            </article>
+        </section>
+
+        <section id="resultado" aria-live="polite">
+            Aquí aparecerá la opción que elijas.
+        </section>
+    </main>
+
+    <footer>
+        ConectaFácil · Proyecto académico
+    </footer>
+
+    <script src="js/proxy.js"></script>
+    <script src="js/state.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
